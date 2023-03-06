@@ -5,7 +5,7 @@ using FluentAssertions;
 using Microsoft.AspNetCore.Http;
 using SimplificaITR.BackEnd.Controllers;
 using SimplificaITR.BackEnd.Data;
-using SimplificaITR.BackEnd.Data.Dtos;
+using SimplificaITR.BackEnd.Data.Dtos.User;
 using SimplificaITR.BackEnd.Models;
 using SimplificaITR.BackEnd.Repository;
 using System.Net;

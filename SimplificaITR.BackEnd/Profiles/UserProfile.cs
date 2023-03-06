@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using SimplificaITR.BackEnd.Data.Dtos;
+using SimplificaITR.BackEnd.Data.Dtos.User;
 using SimplificaITR.BackEnd.Models;
 
 namespace SimplificaITR.BackEnd.Profiles

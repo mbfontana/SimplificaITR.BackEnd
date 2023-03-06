@@ -36,7 +36,7 @@ namespace SimplificaITR.BackEnd.Data
 
             builder.Entity<Area>()
                    .HasOne(area => area.Condition)
-                   .WithMany(condition => condition.Areas)
+                    .WithMany(condition => condition.Areas)
                    .HasForeignKey(area => area.ConditionId);
         }
 

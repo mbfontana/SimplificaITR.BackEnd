@@ -17,17 +17,15 @@ namespace SimplificaITR.BackEnd.Models
 
         [ForeignKey("Cliente")]
         [Required]
-        public int ClienetRefId { get; set; }
+        public int ClienteId { get; set; }
 
         [ForeignKey("City")]
         [Required]
-        public int CityRefId { get; set; }
+        public int CityId { get; set; }
 
         public virtual Cliente Cliente { get; set; } = null!;
-        public int ClienteId { get; set; }
 
         public virtual City City { get; set; } = null!;
-        public int CityId { get; set; }
 
         public virtual List<Area> Areas { get; set; } = null!;
     }

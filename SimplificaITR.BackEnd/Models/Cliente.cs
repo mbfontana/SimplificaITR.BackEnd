@@ -18,7 +18,10 @@ namespace SimplificaITR.BackEnd.Models
         [Required]
         public double CPF { get; set; }
 
+        [Required]
         public virtual User User { get; set; } = null!;
+
+        [Required]
         public int UserId { get; set; }
 
         public virtual List<Property> Properties { get; set; } = null!;

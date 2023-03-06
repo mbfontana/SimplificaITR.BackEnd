@@ -15,8 +15,11 @@ namespace SimplificaITR.BackEnd.Models
         [StringLength(2)]
         public string State { get; set; } = null!;
 
+        [Required]
+        public int Font { get; set; }
+
         public virtual List<Condition> Conditions { get; set; } = null!;
 
         public virtual List<Property> Properties { get; set; } = null!;
-        }
+    }
 }

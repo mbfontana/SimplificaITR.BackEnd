@@ -6,3 +6,5 @@
 /SimplificaITR.BackEnd/obj
 /SimplificaITR.BackEnd.Tests/obj
 /SimplificaITR.BackEnd.Tests/bin/Debug/net6.0
+*.dll
+/SimplificaITR.BackEnd/bin/Debug/net6.0

@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SimplificaITR.BackEnd.Models
 {
@@ -11,6 +12,13 @@ namespace SimplificaITR.BackEnd.Models
 
         [Required]
         public string Type { get; set; } = null!;
+
+        [Required]
+        public double Value { get; set; }
+
+        [ForeignKey("City")]
+        [Required]
+        public int CityId { get; set; }
 
         public virtual List<Area> Areas { get; set; } = null!;
     }

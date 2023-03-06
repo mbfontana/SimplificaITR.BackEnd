@@ -1,4 +1,4 @@
-﻿namespace SimplificaITR.BackEnd.Data.Dtos
+﻿namespace SimplificaITR.BackEnd.Data.Dtos.User
 {
     public class LoginUserDto
     {
